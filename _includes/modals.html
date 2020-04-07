@@ -19,21 +19,27 @@
                                 <p>{{ post.description }}</p>
                             {% endif %}
                             <ul class="list-inline item-details">
-                                {% if post.client %}
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                                {% if post.tech %}
+                                    <li>Tech Used:
+                                        <strong>{{ post.tech }}
                                         </strong>
                                     </li>
                                 {% endif %}
                                 {% if post.project-date %}
                                     <li>Date:
-                                        <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                        <strong>{{ post.project-date }}
                                         </strong>
                                     </li>
                                 {% endif %}
-                                {% if post.category %}
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                {% if post.link %}
+                                    <li>View Page:
+                                        <strong><a href="{{ post.link }}" target="_blank">{{ post.title }}</a>
+                                        </strong>
+                                    </li>
+                                {% endif %}
+                                {% if post.source-link %}
+                                    <li>Source Code:
+                                        <strong><a href="{{ post.source-link }}" target="_blank">{{ post.title }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
