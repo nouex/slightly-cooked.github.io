@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 3
+title: Weatherly
+date: 2020-04-06
+img: weather.png
+alt: image-alt
+project-date: Dec 2017
+tech: React, Redux, Express.js, Dark Sky API
+link: https://enigmatic-stream-86330.herokuapp.com/
+source-link: https://github.com/baaae/weather
+description: Simple app that displays weather data for your location using the Geolocation API.
+
+---
