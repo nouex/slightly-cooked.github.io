@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 2
+title: Piphy
+date: 2020-04-06
+img: piphy.png
+alt: image-alt
+project-date: May 2018
+tech: Bootstrap, React, Express, Redux
+link: http://ancient-waters-53743.herokuapp.com/
+source-link: https://github.com/baaae/chrome-giphy
+description: Chrome extension that uses the Giphy API to search for gifs and allows the user to copy it to the clipboard.
+
+---
