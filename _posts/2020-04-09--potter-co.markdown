@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 1
+title: Potter & Co
+date: 2020-04-09
+img: potter-co.png
+alt: image-alt
+project-date: March 2020
+tech: JS, CSS, Stencil CLI
+link: https://potterandcoshop.com/
+description: Online clothing store.
+
+---
