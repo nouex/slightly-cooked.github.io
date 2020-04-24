@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 1
+modal-id: 7
 title: Fight Corona
 date: 2020-04-16
 img: fight-corona.png
